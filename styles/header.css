@@ -2,7 +2,7 @@
   height: 100vh;
   clip-path: polygon(100% 0, 100% 98%, 0 81%, 0 0);
   background: linear-gradient(#fffffffa, #fffffffa),
-    url("images/Food-header-banner.jpeg") no-repeat;
+    url("../images/Food-header-banner.jpeg") no-repeat;
   background-size: cover;
   padding-top: 20px;
   display: flex;

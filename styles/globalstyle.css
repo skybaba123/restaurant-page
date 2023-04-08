@@ -7,22 +7,22 @@
 
 @font-face {
   font-family: Helvetica-italic;
-  src: url("/fonts/Helvetica-Neue-LTW0697BlkCnObl/Helvetica-Neue-LTW0697BlkCnObl.ttf");
+  src: url("../fonts/Helvetica-Neue-LTW0697BlkCnObl/Helvetica-Neue-LTW0697BlkCnObl.ttf");
 }
 
 @font-face {
   font-family: Helvetica-medium-extended;
-  src: url("/fonts/Helvetica-Neue-Medium-Extended/Helvetica-Neue-Medium-Extended.ttf");
+  src: url("../fonts/Helvetica-Neue-Medium-Extended/Helvetica-Neue-Medium-Extended.ttf");
 }
 
 @font-face {
   font-family: Helvetica-ultralight;
-  src: url("/fonts/Helvetica-Neue-UltraLight/Helvetica-Neue-UltraLight.ttf");
+  src: url("../fonts/Helvetica-Neue-UltraLight/Helvetica-Neue-UltraLight.ttf");
 }
 
 @font-face {
   font-family: Helvetica-medium-italic;
-  src: url("/fonts/Helvetica-Neue-W01-66-Medium-It/Helvetica-Neue-W01-66-Medium-It.ttf");
+  src: url("../fonts/Helvetica-Neue-W01-66-Medium-It/Helvetica-Neue-W01-66-Medium-It.ttf");
 }
 
 html {
@@ -36,6 +36,7 @@ small {
 
 a {
   text-decoration: none;
+  color: #29315d;
 }
 
 .large-text {
