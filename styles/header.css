@@ -1,0 +1,114 @@
+.header {
+  height: 100vh;
+  clip-path: polygon(100% 0, 100% 98%, 0 81%, 0 0);
+  background: linear-gradient(#fffffffa, #fffffffa),
+    url("/images/Food-header-banner.jpeg") no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.header-nav_logo {
+  color: #68ba45;
+}
+.header-nav_logo_cul {
+  color: #bf3a3a;
+  font-family: Helvetica-medium-extended;
+}
+.header-nav_logo_i {
+  color: #f5a11c;
+  font-family: Helvetica-italic;
+}
+
+.header-nav_menu {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  color: #9296b4;
+}
+
+.header-nav_menu > li > a {
+  font-family: Helvetica-medium-extended;
+  cursor: pointer;
+}
+
+.header-nav_menu > li > a:hover {
+  color: #6b708e;
+}
+
+.header-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  gap: 20px;
+}
+
+.header-hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+}
+
+.header-hero_image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 90%;
+}
+
+.header-hero_image > img {
+  width: 100%;
+  height: auto;
+  transition: all 1s;
+}
+
+.header-hero_image > img:hover {
+  scale: 2;
+}
+
+@media (max-width: 800px) {
+  .header-nav {
+    width: 95%;
+  }
+  .header-hero {
+    width: 95%;
+  }
+}
+
+@media (max-width: 585px) {
+  .header {
+    gap: 5rem;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    margin-bottom: 100px;
+    height: 100%;
+  }
+
+  .header-nav {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .br-hidden {
+    display: none;
+  }
+}

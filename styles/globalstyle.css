@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: Helvetica-italic;
+  src: url("/fonts/Helvetica-Neue-LTW0697BlkCnObl/Helvetica-Neue-LTW0697BlkCnObl.ttf");
+}
+
+@font-face {
+  font-family: Helvetica-medium-extended;
+  src: url("/fonts/Helvetica-Neue-Medium-Extended/Helvetica-Neue-Medium-Extended.ttf");
+}
+
+@font-face {
+  font-family: Helvetica-ultralight;
+  src: url("/fonts/Helvetica-Neue-UltraLight/Helvetica-Neue-UltraLight.ttf");
+}
+
+@font-face {
+  font-family: Helvetica-medium-italic;
+  src: url("/fonts/Helvetica-Neue-W01-66-Medium-It/Helvetica-Neue-W01-66-Medium-It.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+small {
+  font-family: Helvetica-medium-italic;
+  color: #f5a11c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.large-text {
+  color: #29315d;
+  line-height: 70px;
+  font-size: 50px;
+}
+
+.semi-large-text {
+  color: #29315d;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.normal-text {
+  color: #7f90ab;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f5a11c;
+  justify-content: center;
+  gap: 10px;
+  font-family: Helvetica-ultralight;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 585px) {
+  .large-text {
+    color: #29315d;
+    line-height: 60px;
+    font-size: 40px;
+  }
+
+  .semi-large-text {
+    color: #29315d;
+    line-height: 50px;
+    font-size: 30px;
+  }
+}
