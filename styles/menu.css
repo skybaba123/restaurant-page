@@ -39,19 +39,19 @@
 }
 
 .menu-food_image-holder-1 {
-  background: url("images/food-menu-1.jpg");
+  background: url("/images/food-menu-1.jpg");
   background-size: cover;
 }
 .menu-food_image-holder-2 {
-  background: url("images/food-menu-2.jpg");
+  background: url("/images/food-menu-2.jpg");
   background-size: cover;
 }
 .menu-food_image-holder-3 {
-  background: url("images/food-menu-3.jpg");
+  background: url("/images/food-menu-3.jpg");
   background-size: cover;
 }
 .menu-food_image-holder-4 {
-  background: url("images/food-menu-4.jpg");
+  background: url("/images/food-menu-4.jpg");
   background-size: cover;
 }
 
